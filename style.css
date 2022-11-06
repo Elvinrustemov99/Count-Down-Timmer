@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Cormorant:wght@400;600&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./snow.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+  color: rgb(99, 99, 96);
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.3rem;
+  color: rgb(99, 99, 96);
+}
+
+.countdown-el .color1 {
+  color: rgb(64, 62, 65);
+}
+.countdown-el .color2 {
+  color: rgb(199, 212, 7);
+}
+.countdown-el .color3 {
+  color: rgb(80, 15, 66);
+}
+.countdown-el .color4 {
+  color: rgb(8, 70, 88);
+}
+
